@@ -1,28 +1,54 @@
-# 🐛 Messages Not Logging to Console Due to Undefined Variables
+# HTML Code Explanation
 
-Work with a partner to resolve the following issue:
+## Document Structure
+- `<!DOCTYPE html>`: Declares the document type and version of HTML.
+- `<html lang="en">`: Sets the language of the document to English.
 
-* As a developer, I want to log messages to the console using variables declared in both global and local scope.
+## Head Section
+- `<meta charset="UTF-8">`: Specifies the character encoding as UTF-8.
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Ensures the page is responsive to different screen sizes.
+- `<title>Scope</title>`: Sets the title of the webpage to "Scope".
 
-## Expected Behavior
+## Body Section
+- `<h1 style="text-align:center;">✨ Open the Console to See What's Happening ✨</h1>`: Main heading centered with inline CSS, instructing users to open the console.
+- `<script src="script.js"></script>`: Links to an external JavaScript file `script.js`.
 
-When the console is opened, a series of messages should log to the console.
 
-## Actual Behavior
+# JavaScript Code Explanation
 
-When the console is opened, an error message indicates that at least one variable is undefined, and messages do not log.
+## Global Variables
+- `shout`: Holds the string "Shout".
+- `bears`: Holds the string "Bears".
 
-## 💡 Hints
+## Functions
 
-Think about how the variable is being used. Is it being made available to all functions, or is it only being used by one function?
+### justShout
+Logs "Shout, Shout".
 
-## 🏆 Bonus
+### shoutItAllOut
+Logs "Shout it all out!".
 
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+### sayLions
+Logs "Lions".
+
+### sayTigers
+Logs "and Tigers and".
+
+### sayBears
+Logs "Bears! OH MY!".
+
+### singAlong
+Logs "Sing," and then "Sing a Song." from the nested function `singASong`.
+
+## Function Calls
+- `justShout()`
+- `shoutItAllOut()`
+- `sayLions()`
+- `sayTigers()`
+- `sayBears()`
+- `singAlong()`
+
 
 * What is lexical scope?
+Lexical scope is the ability for a function scope to access variables from the parent scope.
 
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
